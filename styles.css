@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kulim Park', sans-serif;
+}
+
+/*-------------------HEADER-----------------*/
+
+#presentation{
+    display: flex;
+}
+
+#photo{
+    padding: 1.5% 5% 1.5% 1.5%;
+    background: linear-gradient(to left, #27006b 50%, darkorange 50%);
+}
+
+#texte{
+    width: 100vw;
+}
+
+#titre{
+    text-align: center;
+    font-size: 2.5em;
+    width: 35vw;
+    margin-left: 7%;
+    padding: 1.5% 0 1.5% 0;
+    border: 5px solid #27006b;
+}
+
+#objectif{
+    float: right;
+    padding: 1%;
+    margin-top: 1%;
+    border: 5px solid #27006b;
+}
+
+#date{
+    margin-top: 13%;
+    margin-left: 3%;
+}
+
+/*-------------------ORIGINE-----------------*/
+
+#origine{
+    margin-top: 1%;
+}
+
+#origine h2{
+    text-align: center;
+    border-bottom: 5px solid #27006b;
+}
+#card1 {
+    display: flex;
+    justify-content: center;
+    margin: 1% 0 1% 0;
+}
+
+#titre1{
+    text-align: center;
+    flex-direction: column;
+}
+
+ #identity{
+    width: 7%;
+     margin-right: 2%;
+
+}
+ #story{
+    width: 41%;
+     margin-left: 2%;
+}
+
+/*-------------------EXPERIENCE-----------------*/
+
+#experience h2{
+    text-align: center;
+    border-bottom: 5px solid #27006b;
+}
+
+#card2{
+    display: flex;
+    justify-content: center;
+    margin: 1% 0 1% 0;
+}
+
+/*-------------SAVOIR ETRE ET INTERET-----------------*/
+
+#personnalite{
+    display: flex;
+
+    border-bottom: 5px solid #27006b;
+}
+
+#savoir{
+    width: 50%;
+}
+
+#interet{
+    width: 50%;
+}
+#savoir1{
+    padding-left: 45%;
+
+
+}
+
+#interet1{
+    padding-left: 13%;
+}
+
+#card3 {
+    display: flex;
+    justify-content: center;
+    margin: 1% 0 1% 0;
+}
+
+#etre{
+    margin-right: 19%;
+}
+
+#hobbies{
+    margin-left: 2%;
+}
+
+/*------------------FOOTER--------------------------*/
+
+#foot{
+    border-bottom: 5px solid #27006b;
+    height: 15vh;
+
+}
+
+#contact{
+    text-align: center;
+    padding-top: 0.5%;
+
+}
+
+#mescontacts{
+    display: flex;
+  justify-content: center;
+}
+
+
+#chat{
+    padding-left: 0.5%;
+    transform: rotateY(180deg);
+}
+
+#chat1{
+    padding-left: 0.5%;
+}
+
+#card4{
+    flex-direction: column;
+}
+#mail{
+
+    text-align: center;
+}
+
+#tel{
+
+    text-align: center;
+}
+
+/*------------------Class--------------------------*/
+
+.couleur{
+    background-color: darkorange;
+
+}
